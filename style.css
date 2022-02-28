@@ -44,6 +44,11 @@ h3 {
   color: #f0f0f0;
 }
 
+p {
+  text-align: center;
+  color: #f0f0f0;
+}
+
 .nav {
   width: 427,px;
   margin: 0 auto;
