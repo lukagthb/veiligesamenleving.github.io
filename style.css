@@ -11,7 +11,17 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: #27ae60;
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(18,72,136,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(18,72,136,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(18,72,136,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#124888",GradientType=1);
+}
+
+div.blokje{
+    margin: 100px
+    border: 10px solid #1C6EA4;
+    border-radius: 0px 40px 0px 40px;
 }
 
 a, a:visited, a:hover, a:active {
@@ -34,7 +44,6 @@ h1 {
 }
 
 h2 {
-  width: 500px;
   color: #f0f0f0;
   text-align: center;
 }
@@ -45,8 +54,11 @@ h3 {
 }
 
 p {
+
   text-align: center;
   color: #f0f0f0;
+  width: 20px
+
 }
 
 .nav {
