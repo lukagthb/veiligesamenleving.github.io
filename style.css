@@ -11,11 +11,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: rgb(2,0,36);
-  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(18,72,136,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(18,72,136,1) 100%);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(18,72,136,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#124888",GradientType=1);
+  background: 
 }
 
 div.blokje{
